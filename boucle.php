@@ -19,6 +19,7 @@
 
     echo '<br />';
     echo '<br />';
+
     $couleur = "Gris";
     $manteau = true;
     while($manteau == true) {
@@ -32,3 +33,18 @@
 
     echo '<hr />';
 
+    # Boucle Faire Tant Que (do while)
+    #---------------------------
+    $compteur = 0;
+    do {
+        echo $compteur. '<br />';
+        $compteur++;
+    }while($compteur < 10);
+
+    echo '<hr />';
+    # Boucle Pour chaque (foreach)
+    #---------------------------
+    $tab = ['Lion', 'Aigle', 'Tigre','Zebre'];
+    foreach($tab as $key->$item) {
+        echo $key.': '.$item.'<br />';
+    }
