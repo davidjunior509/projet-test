@@ -45,6 +45,6 @@
     # Boucle Pour chaque (foreach)
     #---------------------------
     $tab = ['Lion', 'Aigle', 'Tigre','Zebre'];
-    foreach($tab as $key->$item) {
+    foreach($tab as $key => $item) {
         echo $key.': '.$item.'<br />';
     }
